@@ -1,0 +1,96 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Currency Exchange Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Currency Exchange</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#rates">Exchange Rates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer competitive currency exchange rates for all your international needs. Whether you're traveling or conducting business abroad, we've got you covered.</p>
+        <ul>
+            <li>In-Store Currency Exchange</li>
+            <li>Online Currency Exchange</li>
+            <li>Bulk Currency Exchange</li>
+        </ul>
+    </section>
+
+    <section id="rates">
+        <h2>Current Exchange Rates</h2>
+        <table id="exchange-rates">
+            <thead>
+                <tr>
+                    <th>Currency Pair</th>
+                    <th>Buy Rate</th>
+                    <th>Sell Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>USD to INR</td>
+                    <td>74.50</td>
+                    <td>75.00</td>
+                </tr>
+                <tr>
+                    <td>EUR to INR</td>
+                    <td>89.30</td>
+                    <td>90.00</td>
+                </tr>
+                <tr>
+                    <td>GBP to INR</td>
+                    <td>102.50</td>
+                    <td>103.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <ol>
+            <li>Choose the currencies you wish to exchange.</li>
+            <li>Check the current exchange rates.</li>
+            <li>Visit our store or exchange online.</li>
+            <li>Receive your currency and payment options.</li>
+        </ol>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Currency Exchange | All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
